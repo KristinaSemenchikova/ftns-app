@@ -5,6 +5,7 @@ const MeWrapper = styled.main`
   color: white;
   grid-area: m;
   display : flex;
+  height : 100vh;
 `;
 
 const Div = styled.div``;

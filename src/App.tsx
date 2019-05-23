@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "./Components/Header/Header";
 import styled from "styled-components";
-import Calculator from "./Components/Calculator/Calculator";
 import { Route, Switch } from "react-router-dom";
 import MePage from "./Components/Me/Me";
+import CalculatorContainer from "./Components/Calculator/CalculatorContainer";
 
 const AppWrapper = styled.div`
   background-color: #8cff8e;
@@ -26,7 +26,7 @@ const App: React.FC = () => {
     <AppWrapper>
       <Header />
       <Switch>
-        <Route path="/calculator" render={() => <Calculator />} />
+        <Route path="/calculator" render={() => <CalculatorContainer />} />
         <Route path="/me" render={() => <MePage />} />
       </Switch>
     </AppWrapper>
