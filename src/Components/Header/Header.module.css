@@ -1,0 +1,16 @@
+
+.navBar {
+    color: white;
+}
+header{
+    grid-area: h;
+    display : flex;
+    flex-direction : row;
+}
+.navBar a {
+    text-decoration: none;
+    color: white;
+}
+.active {
+  color: rgb(68, 0, 255);
+}

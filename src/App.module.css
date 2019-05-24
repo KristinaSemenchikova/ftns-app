@@ -1,0 +1,9 @@
+.appWrapper{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    font-size: larger;
+    grid-template-rows: 70px 10fr;
+    grid-template-areas: 'h h' 'm m';
+    background-color:#02aab0;
+}
