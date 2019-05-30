@@ -4,21 +4,24 @@
     width: 100vw;
     height: 100vh;
     grid-area: m;
+    padding: 50px;
+    background-color:#7cc4ff;
 }
 .search{
     display: flex;
     width: 500px;
     flex-direction: row;
-    margin: 20px;
 }
 .products{
-    background-color:#02aab0;
     display: grid;
-    height: 100vh;
+    height: 500px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
+    overflow-y: scroll;
 }
 .products img {
-    width: 100px
+    width: 100px;
+    height: 100px;
+   
 }
 
 

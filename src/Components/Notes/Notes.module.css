@@ -1,0 +1,31 @@
+.userNotes{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    grid-area: m;
+    padding: 50px;
+    background-color:#7cc4ff;
+}
+.addNote {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.diary {
+    display: flex;
+    flex-direction: column;
+    padding:  10px 50px; 
+    width : 400px
+}
+.note {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: larger
+}
+.note span {
+    padding: 10px;
+}
+
+

@@ -6,11 +6,14 @@ header{
     grid-area: h;
     display : flex;
     flex-direction : row;
+    padding: 10px 50px
 }
 .navBar a {
     text-decoration: none;
     color: white;
+    height: 70px;
+    padding: 5px
 }
 .active {
-  color: rgb(68, 0, 255);
+  color: rgb(240, 101, 131);
 }

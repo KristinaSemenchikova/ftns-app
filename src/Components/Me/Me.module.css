@@ -1,0 +1,15 @@
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    grid-area: m;
+    padding: 50px;
+    background-color:#7cc4ff;
+}
+.formArea {
+    width: 500px;  
+}
+
+
+
