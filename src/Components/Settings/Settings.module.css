@@ -1,7 +1,4 @@
 .settingsWrapper{
-    width: 100vw;
-    height: 100vh;
     grid-area: m;
     padding: 50px;
-    background-color:#7cc4ff;
 }

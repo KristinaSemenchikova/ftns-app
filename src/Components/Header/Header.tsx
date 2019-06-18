@@ -11,7 +11,7 @@ const Header: React.FC = () => {
         <NavLink to="/me"> <Icon  style = {iconSize} type="user" /> </NavLink>
         <NavLink to="/calculator"> <Icon style = {iconSize} type="calculator" /> </NavLink>
         <NavLink to="/notes"> <Icon  style = {iconSize}type="read" /> </NavLink>
-        <NavLink to="/account"> <Icon style = {iconSize} type="setting" /> </NavLink>
+        <NavLink to="/settings"> <Icon style = {iconSize} type="setting" /> </NavLink>
       </nav>
     </header>
   );

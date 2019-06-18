@@ -1,9 +1,18 @@
-.appWrapper{
+.appWrapperLight{
     height: 100vh;
     width: 100vw;
     display: grid;
     font-size: larger;
-    grid-template-rows: 100px 11fr ;
+    grid-template-rows: 100px 12fr ;
     grid-template-areas: 'h . ' 'm m ';
     background-color:#7cc4ff;
+}
+.appWrapperDark{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    font-size: larger;
+    grid-template-rows: 100px 12fr ;
+    grid-template-areas: 'h . ' 'm m ';
+    background-color:#0e416b;
 }
